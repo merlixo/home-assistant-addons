@@ -46,7 +46,7 @@ if [ -z "$HOSTNAME" ]; then
   exit 1
 fi
 
-TEST_COMMAND="/usr/bin/ssh "\
+TEST_COMMAND="sudo /usr/bin/ssh "\
 "-o BatchMode=yes "\
 "-o ConnectTimeout=5 "\
 "-o PubkeyAuthentication=no "\
