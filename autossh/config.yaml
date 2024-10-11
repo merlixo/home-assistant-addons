@@ -1,4 +1,4 @@
-name: SSH Tunnel & Forwarding
+name: SSH Tunnel & Forwarding fork
 version: 1.2.1
 slug: autossh
 description: >-
@@ -20,9 +20,9 @@ map:
 options:
   hostname: ''
   ssh_port: 22
-  username: autossh
+  username: ubuntu
   remote_forwarding:
-    - '127.0.0.1:8123:172.30.32.1:8123'
+    - '4433:192.168.9.32:443'
   other_ssh_options: '-v -N'
   force_keygen: false
 schema:
