@@ -75,7 +75,7 @@ echo ""
 bashio::log.info "The container is connected via the following IP addresses:"
 ip -o address show
 
-COMMAND="/usr/bin/autossh "\
+COMMAND="sudo /usr/bin/autossh "\
 " -M 0 "\
 "-o ServerAliveInterval=30 "\
 "-o ServerAliveCountMax=3 "\
